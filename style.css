@@ -1,11 +1,13 @@
 /* this is the first part*/ 
 body { 
     background-color: #1F2937;
-    color: white; 
-    margin: 12px; 
+    color: white;  
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between;
+    margin: 0px;
+    padding: 0px; 
+    min-width: fit-content;
 } 
 
 #header { 
@@ -33,10 +35,13 @@ a {
     font-size: 18px;
     color: #e5e7e8; 
     font-weight: normal
+
 }
 
 .Parent { 
     display: flex;  
+    margin: 12px;
+    justify-content: center;
 }
 
 .heading { 
@@ -77,13 +82,23 @@ button {
     background-color: whitesmoke;
     color: #1F2937;
     text-align: center;
-    padding: 100px
+    padding: 200px; 
+    margin:0; 
+    padding: 0;
 }
 
 .header2 { 
     display: flex;
     justify-content: center;
     margin: 24px;
+}
+
+.container { 
+    display: flex; 
+    justify-content: center;
+    gap: 12px; 
+    padding-bottom: 100px; 
+    padding-top: 50px;
 }
 
 .text { 
@@ -99,8 +114,42 @@ button {
     border-radius: 8px
 }
 
-.container { 
-    display: flex; 
-    justify-content: center;
-    gap: 12px; 
+/* Third Section */ 
+
+.Body3 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color: #e5e7e8 ;
+    min-width: fit-content;
+}
+
+blockquote{ 
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+    margin: 60px;
+    border: 1px solid red; 
+    padding: 30px; 
+    box-sizing: border-box;
+}
+
+.Quote_text{ 
+    color:#1F2937; 
+    font-weight: bold;
+    font-style: normal;
+    text-align: right; 
+    font-size: 22px;
+}
+/* Fourth Section */ 
+
+.Body4 { 
+    background-color: white;
+      
+}
+
+.Action { 
+    display: flex;
+    justify-items: center; 
+    flex-direction: row;
+    background: #3382f6; 
+    margin: 10px; 
 }
