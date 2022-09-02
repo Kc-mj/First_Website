@@ -1,12 +1,15 @@
 /* this is the first part*/ 
+html, body { 
+    margin: 0px; 
+    padding: 0px
+}
+
 body { 
     background-color: #1F2937;
     color: white;  
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between;
-    margin: 0px;
-    padding: 0px; 
     min-width: fit-content;
 } 
 
@@ -120,6 +123,8 @@ button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     background-color: #e5e7e8 ;
     min-width: fit-content;
+    margin:0; 
+    padding: 0;
 }
 
 blockquote{ 
@@ -127,7 +132,6 @@ blockquote{
     font-style: italic;
     color: #1F2937; 
     margin: 60px;
-    border: 1px solid red; 
     padding: 30px; 
     box-sizing: border-box;
 }
@@ -141,15 +145,29 @@ blockquote{
 }
 /* Fourth Section */ 
 
-.Body4 { 
-    background-color: white;
-      
-}
+.body4 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color: whitesmoke;
+    min-width: fit-content;
+    margin: 0; 
+    padding: 0; 
+} 
 
 .Action { 
-    display: flex;
-    justify-items: center; 
-    flex-direction: row;
-    background: #3382f6; 
-    margin: 10px; 
+    background-color: #3382f6;
 }
+
+/* Footer */ 
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937 ;
+  }
+
