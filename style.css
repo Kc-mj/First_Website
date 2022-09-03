@@ -148,15 +148,36 @@ blockquote{
 .body4 { 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     background-color: whitesmoke;
-    min-width: fit-content;
-    margin: 0; 
-    padding: 0; 
+    min-width: 100%;
+     
 } 
 
 .Action { 
     background-color: #3382f6;
+    margin-top: 250px;  
+    margin-bottom: 250px;
+    margin-left: 75px; 
+    margin-right: 75px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    border-radius: 8px;
+    padding-left: 25px; 
+    flex-wrap: wrap; 
+    align-items: center;
+    padding-top: -10px; 
 }
 
+.button { 
+    border: 1px solid whitesmoke; 
+    margin-left: 300px;
+    margin-right: 20px; 
+    margin-top: 100px; 
+} 
+
+.Sign_up { 
+    margin-top: -144px ;
+}
 /* Footer */ 
 
 .footer {
